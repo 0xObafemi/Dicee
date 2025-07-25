@@ -1,0 +1,73 @@
+.container {
+  /* display: flex; */
+  width: 100vw; /* Sets the width to 100% of the viewport width */
+  height: 100vh; /* Sets the height to 100% of the viewport height */
+  margin: auto;
+  text-align: center;
+}
+
+.logo {
+  text-align: left
+  margin-bottom: 20px;
+  width: 45px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;      /* Changed from 45px to 100% */
+  margin-top: 20px;
+  gap: 20px;        /* Optional: adds space between logos */
+}
+
+.social img {
+  width: 45px;      /* Ensures each logo stays the same size */
+  height: auto;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+.refresh {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  background-color: #DDA853;
+  color: #183B4E;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+body {
+  background-color: F3F3E0;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #27548A;
+}
+
+p {
+  font-size: 2rem;
+  color: #183B4E;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer p {
+  margin-top: 5%;
+  text-align: center;
+  font-family: 'Poppins', 'Montserrat', 'Arial', sans-serif;
+  align-content: center;
+}
